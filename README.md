@@ -2,27 +2,30 @@
 
 Este repositório documenta minha evolução no estudo de **SQL aplicado à
 Análise de Dados e Ciência de Dados**, com foco em consultas analíticas,
-relatórios de negócio e preparação de dados.
+exploração de dados e resolução de problemas comuns de negócio.
 
-Os exemplos utilizam o banco de dados **Chinook**, amplamente adotado
-para práticas de SQL em cenários reais.
+Os exemplos utilizam dois bancos de dados amplamente adotados para
+prática e aprendizado de SQL:
+
+- **employees** — utilizado para consolidar fundamentos de SQL e análises
+  exploratórias (dados demográficos, contratações e salários)
+- **Chinook** — utilizado para praticar SQL em cenários próximos à
+  realidade de negócios, envolvendo clientes, vendas e produtos
 
 ---
 
 ## 🎯 Objetivo
 
-- Consolidar fundamentos e conceitos avançados de SQL
-- Praticar consultas analíticas e orientadas a negócio
-- Desenvolver raciocínio analítico aplicado a dados reais
-- Construir um portfólio técnico organizado e progressivo
+- Consolidar fundamentos e conceitos intermediários de SQL
+- Praticar consultas analíticas e orientadas a dados
+- Desenvolver raciocínio lógico aplicado a problemas reais
+- Construir um repositório de estudos organizado e progressivo
 
 ---
 
-## 🧠 Conteúdos abordados
+## 🧠 Conteúdos abordados até o momento
 
-Ao longo do repositório são explorados conceitos como:
-
-- Exploração e entendimento do banco de dados
+- Exploração e entendimento de bancos de dados
 - Consultas básicas com `SELECT`
 - Filtros com `WHERE`
 - Ordenação e limitação de resultados (`ORDER BY`, `LIMIT`)
@@ -30,25 +33,18 @@ Ao longo do repositório são explorados conceitos como:
 - Consultas com múltiplos `JOINs`
 - Atualização e correção de dados (`UPDATE`)
 - Window Functions (`LAG`, `ROW_NUMBER`, `DENSE_RANK`)
-- Análise temporal de dados
-- Limpeza e preparação de dados (`REGEXP_REPLACE`)
-- Construção de relatórios analíticos e de negócio
+- Análise temporal básica
+- Limpeza simples de dados (`REGEXP_REPLACE`)
 
 ---
 
 ## 📁 Organização do Repositório
 
 O projeto está organizado por **temas e níveis de complexidade**,
-permitindo acompanhar claramente a evolução dos estudos:
+permitindo acompanhar a evolução dos estudos ao longo do tempo.
 
-- Consultas básicas
-- Joins e atualizações
-- Funções analíticas (Window Functions)
-- Limpeza e preparação de dados
-- Relatórios orientados a negócio
-
-Cada pasta contém exemplos práticos e um `README.md` explicando os
-conceitos abordados.
+Cada pasta contém arquivos `.sql` e um `README.md` descrevendo os
+conceitos praticados naquela etapa.
 
 ---
 
@@ -62,5 +58,5 @@ conceitos abordados.
 
 ## 📌 Observação
 
-Este repositório está em constante evolução conforme avanço nos estudos
-de SQL, Análise de Dados e Ciência de Dados.
+Este repositório reflete meu processo de aprendizado em SQL e é
+atualizado conforme novos conceitos são estudados e praticados.
